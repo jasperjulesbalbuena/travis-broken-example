@@ -1,11 +1,10 @@
 <?php
 
-// class Test extends PHPUnit_Framework_TestCase
-// {
-// 	public function testOnePlusOne() {
-// 		$this->assertEquals(2=1+1);
-//   	}
-// }
-   echo "Hello World!";
+class Test extends PHPUnit_Framework_TestCase
+{
+	public function testOnePlusOne() {
+		$this->assertEquals(2, 1+1);
+   	}
+}
 
 ?>
